@@ -1,0 +1,31 @@
+{
+  "name": "spawncoin-api-proxy",
+  "version": "1.0.0",
+  "description": "Provides an easy to use proxy interface for interacting with multiple Spawncoin Nodes",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spawncoin/spawncoin-api-proxy.git"
+  },
+  "author": "Brandon Lehmann <brandonlehmann@gmail.com>",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/spawncoin/spawncoin-api-proxy/issues"
+  },
+  "homepage": "https://github.com/spawncoin/spawncoin-api-proxy#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "colors": "^1.4.0",
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "helmet": "^3.21.2",
+    "node-cache": "^4.2.1",
+    "turtlecoin-rpc": "^2.0.5"
+  },
+  "devDependencies": {
+    "standard": "^14.3.1"
+  }
+}
